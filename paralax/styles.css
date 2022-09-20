@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  display: inline;
+  align-content: center;
+  width: 1250px;
+  height: 100%;
+}
+
+.bgimg1 {
+  background-image: url("/images/ghostshark.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg2 {
+  background-image: url("/images/bigfin2.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg3 {
+  background-image: url("/images/vampire.webp");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg4 {
+  background-image: url("/images/flapjack.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg5 {
+  background-image: url("/images/cuteshark.jfif");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg6 {
+  background-image: url("/images/oceansunfish.webp");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2,
+a {
+  text-decoration: none;
+  font-family: "Wisteria";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #d7e3ec;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.63);
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  width: 1280px;
+  height: 123px;
+  left: 0px;
+  top: 30px;
+  background: linear-gradient(
+    89.91deg,
+    #5884a663 0.08%,
+    rgba(4, 30, 43, 0.5) 84.32%,
+    rgba(4, 30, 43, 0) 99.92%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#hero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 30%;
+  margin-left: 5%;
+  margin-bottom: 30%;
+  font-family: "Wisteria";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.63);
+  color: #d7e3ec;
+  padding-bottom: 0px;
+}
+
+.herotxt {
+  background: none;
+}
+
+.contain {
+  margin: 0px;
+  margin-bottom: 30%;
+  width: 1270px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding-bottom: 4%;
+}
+
+h3 {
+  font-family: "Wisteria";
+  color: #d7e3ec;
+  text-align: left;
+  font-size: 50px;
+  padding-top: 4%;
+  padding-left: 4%;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.63);
+}
+
+p {
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  color: #d7e3ec;
+  text-align: left;
+  font-size: 19px;
+  padding: 4%;
+  width: 70%;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.63);
+  background-color: #0a182184;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Wisteria;
+  src: url("Wisteria.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a1821;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5884a6;
+  border-radius: 10px;
+}
+
+.scrollFade {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+.scrollFade--animate {
+  transition: opacity 0.6s ease-in-out;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  outline: none;
+  background-color: #5884a663;
+  transition: 1s ease;
+  color: #d7e3ec;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#myBtn:hover {
+  background-color: #0a1821;
+  transition: 1s ease;
+}
